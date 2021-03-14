@@ -23,6 +23,9 @@
     <ImportWindowsDesktopTargets>true</ImportWindowsDesktopTargets>
   </PropertyGroup>
   <PropertyGroup>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+  <PropertyGroup>
     <SignManifests>false</SignManifests>
   </PropertyGroup>
   <PropertyGroup>
@@ -60,27 +63,5 @@
   <ItemGroup>
     <PackageReference Include="Microsoft.CSharp" Version="4.7.0" />
     <PackageReference Include="System.Data.DataSetExtensions" Version="4.5.0" />
-  </ItemGroup>
-  <ItemGroup>
-    <Compile Remove="config\ChatBots\AutoLook.cs" />
-    <Compile Remove="config\ChatBots\AutoTree.cs" />
-    <Compile Remove="config\ChatBots\ClckRuAPI.cs" />
-    <Compile Remove="config\ChatBots\CobblestoneMiner.cs" />
-    <Compile Remove="config\ChatBots\Mail.cs" />
-    <Compile Remove="config\ChatBots\OreMiner.cs" />
-    <Compile Remove="config\ChatBots\PayKassa.cs" />
-    <Compile Remove="config\ChatBots\QIWIAPI.cs" />
-    <Compile Remove="config\ChatBots\SugarCaneMiner.cs" />
-    <Compile Remove="config\ChatBots\TreeFarmer.cs" />
-    <Compile Remove="config\ChatBots\VkMessager.cs" />
-    <Compile Remove="config\sample-script-extended.cs" />
-    <Compile Remove="config\sample-script-pm-forwarder.cs" />
-    <Compile Remove="config\sample-script-random-command.cs" />
-    <Compile Remove="config\sample-script-with-chatbot.cs" />
-    <Compile Remove="config\sample-script-with-http-request.cs" />
-    <Compile Remove="config\sample-script-with-task.cs" />
-    <Compile Remove="config\sample-script-with-world-access.cs" />
-    <Compile Remove="config\sample-script.cs" />
-    <Compile Remove="Mapping\VillagerInfo.cs" />
   </ItemGroup>
 </Project>
